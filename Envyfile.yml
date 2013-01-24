@@ -1,0 +1,12 @@
+project_config:
+  name: gitflock
+  #image: Ubuntu 12.04 cloudimg amd64
+  image: geoflock1
+  flavor_name: standard.small
+
+  # Optional
+  #remote_user: ubuntu
+  #flavor_name: m1.small
+  #auto_provision: False
+  provision_scripts:
+    #- provision_script.sh
